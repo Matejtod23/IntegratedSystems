@@ -1,0 +1,29 @@
+﻿@model BookingApplication.Models.DTO.ReservationBookingListDTO
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px">
+        @for(int i = 0; i<Model.Reservations.Count; i++)
+        {
+            var item = Model.Reservations[i];
+
+            <div class="card">
+                <h1 class="card-header text-center">@item.Reservation?.Apartment?.ApartmentName</h1>
+                <p class="card-text">Check in date: @item.Reservation?.Check_in_date</p>
+                <p class="card-text">Number of nights: @item.Number_of_nights</p>
+                <form asp-action="RemoveReservation" asp-controller="Reservations" asp-route-id="@item.Id" method="post" style="text-align:center">
+                    <button type="submit" class="btn btn-danger">Remove reservation</button>
+                </form>
+            </div>
+        }
+        
+    </div>
+
+    <h4 style="margin-top: 50px">Total price: @Model.TotalPrice $</h4>
+    <a class="btn btn-success" asp-action="BookNow">Book reservation</a>
+</div>

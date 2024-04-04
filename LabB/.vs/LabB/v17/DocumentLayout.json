@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net_IS\\Labs\\LabB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\views\\theatreshows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\views\\theatreshows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\controllers\\theatreshowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\controllers\\theatreshowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\theatre.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\theatre.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\models\\theatreuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\models\\theatreuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\models\\theatreshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\models\\theatreshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|d:\\.net_is\\labs\\labb\\theatre.web\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351783BB-B0AB-47EC-B418-4879ACA7B0FD}|Theatre.Web\\Theatre.Web.csproj|solutionrelative:theatre.web\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Views\\TheatreShows\\Index.cshtml",
+              "RelativeDocumentMoniker": "Theatre.Web\\Views\\TheatreShows\\Index.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Views\\TheatreShows\\Index.cshtml",
+              "RelativeToolTip": "Theatre.Web\\Views\\TheatreShows\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T19:21:53.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Theatre.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Theatre.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T19:20:28.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "Theatre.Web\\Controllers\\TicketsController.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "Theatre.Web\\Controllers\\TicketsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:20:19.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TheatreShowsController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Controllers\\TheatreShowsController.cs",
+              "RelativeDocumentMoniker": "Theatre.Web\\Controllers\\TheatreShowsController.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Controllers\\TheatreShowsController.cs",
+              "RelativeToolTip": "Theatre.Web\\Controllers\\TheatreShowsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:19:50.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Theatre.Web",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Theatre.Web.csproj",
+              "RelativeDocumentMoniker": "Theatre.Web\\Theatre.Web.csproj",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Theatre.Web.csproj",
+              "RelativeToolTip": "Theatre.Web\\Theatre.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T19:02:09.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Theatre.Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Theatre.Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:39:38.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TheatreUser.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Models\\TheatreUser.cs",
+              "RelativeDocumentMoniker": "Theatre.Web\\Models\\TheatreUser.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Models\\TheatreUser.cs",
+              "RelativeToolTip": "Theatre.Web\\Models\\TheatreUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:37:54.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Theatre.Web\\Models\\Ticket.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Models\\Ticket.cs",
+              "RelativeToolTip": "Theatre.Web\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:32:36.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TheatreShow.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Models\\TheatreShow.cs",
+              "RelativeDocumentMoniker": "Theatre.Web\\Models\\TheatreShow.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\LabB\\Theatre.Web\\Models\\TheatreShow.cs",
+              "RelativeToolTip": "Theatre.Web\\Models\\TheatreShow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:31:04.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

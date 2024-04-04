@@ -1,0 +1,36 @@
+﻿@model List<Theatre.Web.Models.TheatreShow>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="container">
+    <div class="m-3">
+        <a class="btn btn-success" asp-controller="TheatreShows" asp-action="Create">Create New</a>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 25px">
+        @for(int i=0; i<Model.Count; i++)
+        {
+            var item = Model[i];
+
+            <div class="card" style="width: 18rem; height: 35rem">
+                <img class="card-img-top" src="@item.ImageUrl" alt="image"/>
+                <div class="card-body">
+                    <h3 class="card-title">@item.Title</h3>
+                    <h4 class="card-subtitle">@item.Place</h4>
+                    <h5 class="card-subtitle">@item.ShowDate</h5>
+                    <p class="card-text">@item.Description</p>
+                </div>
+                <div class="card-footer">
+                    <a asp-controller="TheatreShows" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-dark">Edit</a>
+                    <a asp-controller="TheatreShows" asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary">Details</a>
+                    <a asp-controller="TheatreShows" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

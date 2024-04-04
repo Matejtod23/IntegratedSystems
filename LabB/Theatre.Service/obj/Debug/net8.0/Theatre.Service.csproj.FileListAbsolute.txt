@@ -1,0 +1,11 @@
+D:\.Net_IS\Labs\LabB\Theatre.Service\bin\Debug\net8.0\Theatre.Service.deps.json
+D:\.Net_IS\Labs\LabB\Theatre.Service\bin\Debug\net8.0\Theatre.Service.dll
+D:\.Net_IS\Labs\LabB\Theatre.Service\bin\Debug\net8.0\Theatre.Service.pdb
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\Theatre.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\Theatre.Service.AssemblyInfoInputs.cache
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\Theatre.Service.AssemblyInfo.cs
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\Theatre.Service.csproj.CoreCompileInputs.cache
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\Theatre.Service.dll
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\refint\Theatre.Service.dll
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\Theatre.Service.pdb
+D:\.Net_IS\Labs\LabB\Theatre.Service\obj\Debug\net8.0\ref\Theatre.Service.dll

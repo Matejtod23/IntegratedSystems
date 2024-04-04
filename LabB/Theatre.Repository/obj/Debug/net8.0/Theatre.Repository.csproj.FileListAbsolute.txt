@@ -1,0 +1,11 @@
+D:\.Net_IS\Labs\LabB\Theatre.Repository\bin\Debug\net8.0\Theatre.Repository.deps.json
+D:\.Net_IS\Labs\LabB\Theatre.Repository\bin\Debug\net8.0\Theatre.Repository.dll
+D:\.Net_IS\Labs\LabB\Theatre.Repository\bin\Debug\net8.0\Theatre.Repository.pdb
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\Theatre.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\Theatre.Repository.AssemblyInfoInputs.cache
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\Theatre.Repository.AssemblyInfo.cs
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\Theatre.Repository.csproj.CoreCompileInputs.cache
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\Theatre.Repository.dll
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\refint\Theatre.Repository.dll
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\Theatre.Repository.pdb
+D:\.Net_IS\Labs\LabB\Theatre.Repository\obj\Debug\net8.0\ref\Theatre.Repository.dll
