@@ -1,4 +1,4 @@
-using BookingApplication.Models;
+using BookingApplication.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

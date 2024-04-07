@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NDzlLmkIgZM1hf5OSWTm29cxAJ9KIfGSdNsZwfSpFyGZgR5EQNSBUnD1xEWpQogsAnJcYG+zzyzgdZEDiPZiXQ==",
+  "dgSpecHash": "6dQo4yl5/CM/iMsRpquOAd2tzVP8MLX4KyqFcMpg0tVwaG0T0NEotxZ8nuqewCtAN6VOrQUx2P9A/R9Yov4jdA==",
   "success": true,
-  "projectFilePath": "D:\\.Net_IS\\Labs\\BookingApplication\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
+  "projectFilePath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matej\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

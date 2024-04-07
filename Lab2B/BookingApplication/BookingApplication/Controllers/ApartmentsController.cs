@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BookingApplication.Data;
-using BookingApplication.Models;
+using BookingApplication.Repository;
+using BookingApplication.Domain.Domain;
 
 namespace BookingApplication.Controllers
 {

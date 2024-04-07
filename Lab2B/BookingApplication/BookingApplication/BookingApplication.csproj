@@ -21,4 +21,15 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookingApplication.Domain\BookingApplication.Domain.csproj" />
+    <ProjectReference Include="..\BookingApplication.Repository\BookingApplication.Repository.csproj" />
+    <ProjectReference Include="..\BookingApplication.Service\BookingApplication.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>

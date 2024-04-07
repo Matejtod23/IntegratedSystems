@@ -3234,6 +3234,47 @@
             "rid": "win"
           }
         }
+      },
+      "BookingApplication.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/BookingApplication.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookingApplication.Domain.dll": {}
+        }
+      },
+      "BookingApplication.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BookingApplication.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/BookingApplication.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookingApplication.Repository.dll": {}
+        }
+      },
+      "BookingApplication.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BookingApplication.Domain": "1.0.0",
+          "BookingApplication.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookingApplication.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookingApplication.Service.dll": {}
+        }
       }
     }
   },
@@ -8882,10 +8923,28 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BookingApplication.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BookingApplication.Domain/BookingApplication.Domain.csproj",
+      "msbuildProject": "../BookingApplication.Domain/BookingApplication.Domain.csproj"
+    },
+    "BookingApplication.Repository/1.0.0": {
+      "type": "project",
+      "path": "../BookingApplication.Repository/BookingApplication.Repository.csproj",
+      "msbuildProject": "../BookingApplication.Repository/BookingApplication.Repository.csproj"
+    },
+    "BookingApplication.Service/1.0.0": {
+      "type": "project",
+      "path": "../BookingApplication.Service/BookingApplication.Service.csproj",
+      "msbuildProject": "../BookingApplication.Service/BookingApplication.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BookingApplication.Domain >= 1.0.0",
+      "BookingApplication.Repository >= 1.0.0",
+      "BookingApplication.Service >= 1.0.0",
       "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter >= 8.0.3",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.3",
@@ -8902,11 +8961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net_IS\\Labs\\BookingApplication\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
+      "projectUniqueName": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
       "projectName": "BookingApplication",
-      "projectPath": "D:\\.Net_IS\\Labs\\BookingApplication\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
+      "projectPath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
       "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net_IS\\Labs\\BookingApplication\\BookingApplication\\BookingApplication\\obj\\",
+      "outputPath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8922,7 +8981,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Domain\\BookingApplication.Domain.csproj": {
+              "projectPath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Domain\\BookingApplication.Domain.csproj"
+            },
+            "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Repository\\BookingApplication.Repository.csproj": {
+              "projectPath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Repository\\BookingApplication.Repository.csproj"
+            },
+            "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\BookingApplication.Service.csproj": {
+              "projectPath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\BookingApplication.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

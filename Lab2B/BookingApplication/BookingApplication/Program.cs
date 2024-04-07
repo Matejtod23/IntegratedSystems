@@ -1,7 +1,13 @@
-using BookingApplication.Data;
-using BookingApplication.Models;
+using BookingApplication.Domain.Domain;
+using BookingApplication.Domain;
+using BookingApplication.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using BookingApplication.Repository.Interface;
+using BookingApplication.Repository.Implementation;
+using BookingApplication.Service.Interface;
+using BookingApplication.Service.Implementation;
+using NuGet.Protocol.Core.Types;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +20,12 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<BookingApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+
+builder.Services.AddTransient<IReservationService, ReservationService>();
+builder.Services.AddTransient<IBookingListService, BookingListService>();
 
 var app = builder.Build();
 

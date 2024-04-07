@@ -5,19 +5,25 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BookingApplication.Data;
-using BookingApplication.Models;
 using System.Security.Claims;
+using BookingApplication.Repository;
+using BookingApplication.Domain.Domain;
+using BookingApplication.Service.Interface;
+using BookingApplication.Repository.Interface;
 
 namespace BookingApplication.Controllers
 {
     public class ReservationsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IReservationService reservationService;
+        private readonly IBookingListService bookingListService;
+        private readonly IUserRepository userRepository;
 
-        public ReservationsController(ApplicationDbContext context)
+        public ReservationsController(IReservationService _reservationService, IBookingListService _bookingListService, IUserRepository _userRepository)
         {
-            _context = context;
+            this.reservationService = _reservationService;
+            this.bookingListService = _bookingListService;
+            this.userRepository = _userRepository;  
         }
 
 
@@ -29,8 +35,8 @@ namespace BookingApplication.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var reseravation = await _context.Reservations.FindAsync(id);
-            var bookingList = _context.BookingLists.FirstOrDefault(b => b.UserId == userId);
+            var reseravation = reservationService.GetReservation(id);
+            var bookingList = userRepository.GetById(userId).BookingList;
 
             BookReservation res = new BookReservation();
             if (reseravation != null && bookingList != null)
@@ -45,20 +51,9 @@ namespace BookingApplication.Controllers
         public async Task<IActionResult> BookReservationConfirmed(BookReservation booking)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var bookinList = _context.BookingLists.FirstOrDefault(b => b.UserId == userId);
+            reservationService.BookReservationConfirmed(booking, userId);
 
-            if (bookinList != null)
-            {
-                if (bookinList.BookingReservations == null)
-                {
-                    bookinList.BookingReservations = new List<BookReservation>();
-                }
-
-                bookinList.BookingReservations.Add(booking);
-                await _context.SaveChangesAsync();
-            }
-
-            return RedirectToAction("Index", "BookingLists", await _context.Reservations.ToListAsync());
+            return RedirectToAction("Index", reservationService.GetAllReservations());
         }
 
         [HttpPost]
@@ -70,30 +65,19 @@ namespace BookingApplication.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var loggedInUser = await _context.Users
-                .Include(bl => bl.BookingList)
-                .ThenInclude(br => br.BookingReservations)
-                .ThenInclude(r => r.Reservation)
-                .ThenInclude(a => a.Apartment)
-                .FirstOrDefaultAsync(u => u.Id == userId);
+            reservationService.RemoveReservation(id, userId);
 
-            var bookingList = loggedInUser?.BookingList;
-            var bReservation = _context.BookingReservations.FirstOrDefault(b => b.Id == id);
 
-            bookingList.BookingReservations.Remove(bReservation);
-            await _context.SaveChangesAsync();
-
-            return RedirectToAction("Index", "BookingLists", await _context.Reservations.ToListAsync());
+            return RedirectToAction("Index", "BookingLists", reservationService.GetAllReservations());
 
         }
 
 
 
         // GET: Reservations
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var applicationDbContext = _context.Reservations.Include(r => r.Apartment);
-            return View(await applicationDbContext.ToListAsync());
+            return View(reservationService.GetAllReservations());
         }
 
         // GET: Reservations/Details/5
@@ -104,9 +88,7 @@ namespace BookingApplication.Controllers
                 return NotFound();
             }
 
-            var reservation = await _context.Reservations
-                .Include(r => r.Apartment)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var reservation = reservationService.GetReservation(id);
             if (reservation == null)
             {
                 return NotFound();
@@ -118,7 +100,6 @@ namespace BookingApplication.Controllers
         // GET: Reservations/Create
         public IActionResult Create()
         {
-            ViewData["ApartmentId"] = new SelectList(_context.Apartments, "Id", "ApartmentName");
             return View();
         }
 
@@ -132,11 +113,9 @@ namespace BookingApplication.Controllers
             if (ModelState.IsValid)
             {
                 reservation.Id = Guid.NewGuid();
-                _context.Add(reservation);
-                await _context.SaveChangesAsync();
+                reservationService.CreateReservation(reservation);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ApartmentId"] = new SelectList(_context.Apartments, "Id", "ApartmentName", reservation.ApartmentId);
             return View(reservation);
         }
 
@@ -148,12 +127,11 @@ namespace BookingApplication.Controllers
                 return NotFound();
             }
 
-            var reservation = await _context.Reservations.FindAsync(id);
+            var reservation = reservationService.GetReservationDetails(id);
             if (reservation == null)
             {
                 return NotFound();
             }
-            ViewData["ApartmentId"] = new SelectList(_context.Apartments, "Id", "ApartmentName", reservation.ApartmentId);
             return View(reservation);
         }
 
@@ -173,8 +151,7 @@ namespace BookingApplication.Controllers
             {
                 try
                 {
-                    _context.Update(reservation);
-                    await _context.SaveChangesAsync();
+                    reservationService.UpdateExistingReservation(reservation);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -189,7 +166,6 @@ namespace BookingApplication.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ApartmentId"] = new SelectList(_context.Apartments, "Id", "ApartmentName", reservation.ApartmentId);
             return View(reservation);
         }
 
@@ -201,9 +177,7 @@ namespace BookingApplication.Controllers
                 return NotFound();
             }
 
-            var reservation = await _context.Reservations
-                .Include(r => r.Apartment)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var reservation = reservationService.GetReservation(id);
             if (reservation == null)
             {
                 return NotFound();
@@ -217,19 +191,14 @@ namespace BookingApplication.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var reservation = await _context.Reservations.FindAsync(id);
-            if (reservation != null)
-            {
-                _context.Reservations.Remove(reservation);
-            }
-
-            await _context.SaveChangesAsync();
+            var reservation = reservationService.GetReservation(id);
+            reservationService.DeleteReservation(reservation);
             return RedirectToAction(nameof(Index));
         }
 
         private bool ReservationExists(Guid id)
         {
-            return _context.Reservations.Any(e => e.Id == id);
+            return reservationService.GetReservation(id) != null;
         }
     }
 }

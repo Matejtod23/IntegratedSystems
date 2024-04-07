@@ -5,45 +5,27 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BookingApplication.Data;
-using BookingApplication.Models;
 using System.Security.Claims;
-using BookingApplication.Models.DTO;
+using BookingApplication.Repository;
+using BookingApplication.Domain.Domain;
+using BookingApplication.Service.Interface;
 
 namespace BookingApplication.Controllers
 {
     public class BookingListsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IBookingListService bookingListSerivce;
 
-        public BookingListsController(ApplicationDbContext context)
+        public BookingListsController(IBookingListService _bookingListSerivce)
         {
-            _context = context;
+            this.bookingListSerivce = _bookingListSerivce;
         }
 
         // GET: BookingLists
         public async Task<IActionResult> Index()
-        
-        
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var loggedInUser = await _context.Users
-                .Include(x => x.BookingList)
-                .ThenInclude(bl => bl.BookingReservations)
-                .ThenInclude(r => r.Reservation)
-                .ThenInclude(a => a.Apartment)
-                .FirstOrDefaultAsync(z => z.Id == userId);
-
-            var userBookingList = loggedInUser?.BookingList;
-            var allBookings = userBookingList?.BookingReservations.ToList();
-
-            var totalPrice = allBookings.Select(b => (b.Reservation?.Apartment?.Price_per_night * b.Number_of_nights)).Sum();
-
-             ReservationBookingListDTO dto = new ReservationBookingListDTO
-            {
-                Reservations = allBookings,
-                TotalPrice = (double)totalPrice,
-            };
+            var dto = bookingListSerivce.GetAllBookingListInfo(userId);
 
             return View(dto);
         }
@@ -52,23 +34,7 @@ namespace BookingApplication.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            var loggedInUser = _context.Users
-                  .Include(x => x.BookingList)
-                  .Include("BookingList.BookingReservations")
-                  .Include("BookingList.BookingReservations.Reservation")
-                  .FirstOrDefault(z => z.Id == userId);
-
-
-            var userReseravions = loggedInUser?.BookingList;
-            var allBookings = userReseravions?.BookingReservations?.ToList();
-            
-            foreach (var res in allBookings)
-            {
-                userReseravions.BookingReservations.Remove(res);
-            }
-
-            _context.BookingLists.Update(userReseravions);
-            _context.SaveChanges();
+            bookingListSerivce.BookNow(userId);
 
             return RedirectToAction("Index");
         }
@@ -81,9 +47,7 @@ namespace BookingApplication.Controllers
                 return NotFound();
             }
 
-            var bookingList = await _context.BookingLists
-                .Include(b => b.User)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var bookingList = bookingListSerivce.GetBookingList(id);
             if (bookingList == null)
             {
                 return NotFound();
@@ -95,7 +59,6 @@ namespace BookingApplication.Controllers
         // GET: BookingLists/Create
         public IActionResult Create()
         {
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
             return View();
         }
 
@@ -109,11 +72,9 @@ namespace BookingApplication.Controllers
             if (ModelState.IsValid)
             {
                 bookingList.Id = Guid.NewGuid();
-                _context.Add(bookingList);
-                await _context.SaveChangesAsync();
+                bookingListSerivce.CreateBookingList(bookingList);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", bookingList.UserId);
             return View(bookingList);
         }
 
@@ -125,12 +86,11 @@ namespace BookingApplication.Controllers
                 return NotFound();
             }
 
-            var bookingList = await _context.BookingLists.FindAsync(id);
+            var bookingList = bookingListSerivce.GetBookingList(id);
             if (bookingList == null)
             {
                 return NotFound();
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", bookingList.UserId);
             return View(bookingList);
         }
 
@@ -150,8 +110,7 @@ namespace BookingApplication.Controllers
             {
                 try
                 {
-                    _context.Update(bookingList);
-                    await _context.SaveChangesAsync();
+                   bookingListSerivce.UpdateExistingBookingList(bookingList);   
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -166,7 +125,6 @@ namespace BookingApplication.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", bookingList.UserId);
             return View(bookingList);
         }
 
@@ -178,9 +136,7 @@ namespace BookingApplication.Controllers
                 return NotFound();
             }
 
-            var bookingList = await _context.BookingLists
-                .Include(b => b.User)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var bookingList = bookingListSerivce.GetBookingList(id);
             if (bookingList == null)
             {
                 return NotFound();
@@ -194,19 +150,14 @@ namespace BookingApplication.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var bookingList = await _context.BookingLists.FindAsync(id);
-            if (bookingList != null)
-            {
-                _context.BookingLists.Remove(bookingList);
-            }
-
-            await _context.SaveChangesAsync();
+            var bookingList = bookingListSerivce.GetBookingList(id);
+            bookingListSerivce.DeleteBookingList(bookingList);
             return RedirectToAction(nameof(Index));
         }
 
         private bool BookingListExists(Guid id)
         {
-            return _context.BookingLists.Any(e => e.Id == id);
+           return bookingListSerivce.GetBookingList(id) != null;
         }
     }
 }
