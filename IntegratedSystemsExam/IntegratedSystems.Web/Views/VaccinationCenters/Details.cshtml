@@ -1,0 +1,78 @@
+﻿@model IntegratedSystems.Domain.Domain_Models.VaccinationCenter
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+@if(ViewBag.Error != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.Error
+    </div>
+}
+<div>
+    <h4>VaccinationCenter</h4>
+    <div class="row">
+        <a asp-action="AddVaccinedPatient" class="btn btn-success" asp-route-id="@Model?.Id">Add Vaccined Patient</a>
+    </div>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Date Taken
+                </th>
+                <th>
+                    Center
+                </th>
+                <th>
+                    Certificate
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.Vaccines != null)
+            {
+                @foreach (var item in Model.Vaccines)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PatientFor.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PatientFor.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DateTaken)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Center.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Certificate)
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">No Vaccines available</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

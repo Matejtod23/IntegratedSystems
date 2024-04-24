@@ -3,6 +3,33 @@
   "WorkspaceRootPath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046E6BAC-8A2F-4DF0-BC0F-096F686916F3}|BookingApplication.Repository\\BookingApplication.Repository.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046E6BAC-8A2F-4DF0-BC0F-096F686916F3}|BookingApplication.Repository\\BookingApplication.Repository.csproj|solutionrelative:bookingapplication.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookingApplicationDB/True/SqlTable/dbo.Apartments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{046E6BAC-8A2F-4DF0-BC0F-096F686916F3}|BookingApplication.Repository\\BookingApplication.Repository.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046E6BAC-8A2F-4DF0-BC0F-096F686916F3}|BookingApplication.Repository\\BookingApplication.Repository.csproj|solutionrelative:bookingapplication.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,18 +46,6 @@
       "RelativeMoniker": "D:0:0:{608B5520-BF6F-4553-907C-E35FEA9E67E6}|BookingApplication.Service\\BookingApplication.Service.csproj|solutionrelative:bookingapplication.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046E6BAC-8A2F-4DF0-BC0F-096F686916F3}|BookingApplication.Repository\\BookingApplication.Repository.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046E6BAC-8A2F-4DF0-BC0F-096F686916F3}|BookingApplication.Repository\\BookingApplication.Repository.csproj|solutionrelative:bookingapplication.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{608B5520-BF6F-4553-907C-E35FEA9E67E6}|BookingApplication.Service\\BookingApplication.Service.csproj|d:\\.net_is\\labs\\lab2b\\bookingapplication\\bookingapplication.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{608B5520-BF6F-4553-907C-E35FEA9E67E6}|BookingApplication.Service\\BookingApplication.Service.csproj|solutionrelative:bookingapplication.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,37 +57,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Program.cs",
-              "RelativeDocumentMoniker": "BookingApplication\\Program.cs",
-              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Program.cs",
-              "RelativeToolTip": "BookingApplication\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:41:29.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookingListSerivce.cs",
-              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
-              "RelativeDocumentMoniker": "BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
-              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
-              "RelativeToolTip": "BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwEYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:38:59.074Z",
-              "EditorCaption": ""
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Views\\Reservations\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\Create.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Views\\Reservations\\Create.cshtml",
+              "RelativeToolTip": "BookingApplication\\Views\\Reservations\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T21:51:35.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T21:51:34.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApartmentsController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\ApartmentsController.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ApartmentsController.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\ApartmentsController.cs",
+              "RelativeToolTip": "BookingApplication\\Controllers\\ApartmentsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:46:41.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.Apartments [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookingApplicationDB/True/SqlTable/dbo.Apartments.sql",
+              "ToolTip": "dbo.Apartments [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-07T21:46:19.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Repository\\Implementation\\UserRepository.cs",
               "RelativeDocumentMoniker": "BookingApplication.Repository\\Implementation\\UserRepository.cs",
@@ -80,12 +114,11 @@
               "RelativeToolTip": "BookingApplication.Repository\\Implementation\\UserRepository.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:23:55.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T19:23:55.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Repository\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "BookingApplication.Repository\\Interface\\IUserRepository.cs",
@@ -93,38 +126,60 @@
               "RelativeToolTip": "BookingApplication.Repository\\Interface\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:23:51.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T19:23:51.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingListsController.cs",
-              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
-              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\BookingListsController.cs",
-              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
-              "RelativeToolTip": "BookingApplication\\Controllers\\BookingListsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA6wBAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:11:36.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ReservationsController.cs",
               "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ReservationsController.cs",
               "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
               "RelativeToolTip": "BookingApplication\\Controllers\\ReservationsController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAnwDIAAAA1AAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAgwGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T19:11:36.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "BookingListSerivce.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
+              "RelativeDocumentMoniker": "BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
+              "RelativeToolTip": "BookingApplication.Service\\Implementation\\BookingListSerivce.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwEYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:38:59.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingListsController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\BookingListsController.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
+              "RelativeToolTip": "BookingApplication\\Controllers\\BookingListsController.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAIwBAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:11:36.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Program.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Program.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\Program.cs",
+              "RelativeToolTip": "BookingApplication\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:41:29.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\Implementation\\ReservationService.cs",
               "RelativeDocumentMoniker": "BookingApplication.Service\\Implementation\\ReservationService.cs",
@@ -132,12 +187,11 @@
               "RelativeToolTip": "BookingApplication.Service\\Implementation\\ReservationService.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAwCUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:11:08.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T19:11:08.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IReservationService.cs",
               "DocumentMoniker": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\Interface\\IReservationService.cs",
               "RelativeDocumentMoniker": "BookingApplication.Service\\Interface\\IReservationService.cs",
@@ -145,8 +199,7 @@
               "RelativeToolTip": "BookingApplication.Service\\Interface\\IReservationService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T19:10:31.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T19:10:31.93Z"
             }
           ]
         }

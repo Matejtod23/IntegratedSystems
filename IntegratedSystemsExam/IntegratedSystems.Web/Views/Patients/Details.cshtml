@@ -1,0 +1,89 @@
+﻿@model IntegratedSystems.Domain.Domain_Models.Patient
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Patient</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Embg)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Embg)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                Center
+            </th>
+            <th>
+                Date Taken
+            </th>
+            <th>
+                Certificate
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.VaccinationSchedule != null)
+        {
+            var count = 0;
+            @foreach (var item in Model.VaccinationSchedule)
+            {
+                <tr>
+                    <td>@count</td>
+                    <td>@item.Center?.Name</td>
+                    <td>@item.DateTaken</td>
+                    <td>@item.Certificate</td>
+                </tr>
+                count = count + 1;
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No Vaccines available</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
