@@ -10,7 +10,10 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using IntegratedSystems.Domain.Domain_Models;
 using IntegratedSystems.Domain.Identity_Models;
+using IntegratedSystems.Repository.Interface;
+using IntegratedSystems.Service.Interface;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -30,13 +33,15 @@ namespace IntegratedSystems.Web.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IntegratedSystemsUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly IPatientService patientService;
 
         public RegisterModel(
             UserManager<IntegratedSystemsUser> userManager,
             IUserStore<IntegratedSystemsUser> userStore,
             SignInManager<IntegratedSystemsUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            IPatientService _patientService)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -44,6 +49,7 @@ namespace IntegratedSystems.Web.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            patientService = _patientService;
         }
 
         /// <summary>
@@ -89,6 +95,12 @@ namespace IntegratedSystems.Web.Areas.Identity.Pages.Account
             [Required]
             public string Address { get; set; }
 
+            [Required]
+            public string PhoneNumber { get; set; }
+            [Required]
+            public string Embg { get; set; }
+
+
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -131,6 +143,21 @@ namespace IntegratedSystems.Web.Areas.Identity.Pages.Account
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
                 user.Address = Input.Address;
+                user.Email = Input.Email;
+                user.PhoneNumber = Input.PhoneNumber;
+                user.Embg = Input.Embg;
+
+                Patient p = new Patient()
+                {
+                    Id = Guid.NewGuid(),
+                    Embg = user.Embg,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    PhoneNumber = user.PhoneNumber,
+                    Email = user.Email
+                };
+
+                patientService.CreateNewPatient(p);
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 

@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.web\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.service\\implementation\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|solutionrelative:integratedsystems.service\\implementation\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.web\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.domain\\domain models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\domain models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|d:\\.net_is\\kolok1zad\\integratedsystemsexam\\integratedsystems.domain\\identity models\\integratedsystemsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\identity models\\integratedsystemsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VaccinationCentersController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
+              "RelativeToolTip": "IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAlwEsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:38:01.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Patients\\Create.cshtml",
+              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Views\\Patients\\Create.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Patients\\Create.cshtml",
+              "RelativeToolTip": "IntegratedSystems.Web\\Views\\Patients\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T13:55:58.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Controllers\\PatientsController.cs",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "IntegratedSystems.Web\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:49:43.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\PatientService.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Service\\Implementation\\PatientService.cs",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\PatientService.cs",
+              "RelativeToolTip": "IntegratedSystems.Service\\Implementation\\PatientService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:49:21.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAQwI4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:40:30.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "IntegratedSystems.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T13:40:24.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Patient.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Domain Models\\Patient.cs",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Patient.cs",
+              "RelativeToolTip": "IntegratedSystems.Domain\\Domain Models\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:39:15.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IntegratedSystemsUser.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
+              "ToolTip": "D:\\.Net_IS\\Kolok1Zad\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
+              "RelativeToolTip": "IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:38:45.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
