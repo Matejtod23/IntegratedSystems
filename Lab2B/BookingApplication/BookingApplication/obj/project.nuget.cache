@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6dQo4yl5/CM/iMsRpquOAd2tzVP8MLX4KyqFcMpg0tVwaG0T0NEotxZ8nuqewCtAN6VOrQUx2P9A/R9Yov4jdA==",
+  "dgSpecHash": "2ta2YTwtXbMh1M7UZ4GFQHk5H1cYeBU3RpkJu65QGCOYndssX8eV8g+RmZo1f8LLTdoWaKWJ2PAHo4ToqaFBdQ==",
   "success": true,
   "projectFilePath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
   "expectedPackageFiles": [
@@ -149,6 +149,7 @@
     "C:\\Users\\matej\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\stripe.net\\44.3.0\\stripe.net.44.3.0.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",

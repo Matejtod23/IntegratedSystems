@@ -1,4 +1,6 @@
 ﻿@model BookingApplication.Domain.DTO.ReservationBookingListDTO
+@using Microsoft.Extensions.Options
+@inject IOptions<BookingApplication.Domain.Domain.StripeSettings> Stripe
 
 @{
     ViewData["Title"] = "Index";
@@ -25,5 +27,21 @@
     </div>
 
     <h4 style="margin-top: 50px">Total price: @Model.TotalPrice $</h4>
-    <a class="btn btn-success" asp-action="BookNow">Book reservation</a>
+    <div class="row m-4">
+        @if (Model.TotalPrice != 0)
+        {
+            <form asp-controller="BookingLists" asp-action="PayBooking" method="post">
+                <article>
+                    <script src="https://checkout.stripe.com/checkout.js"
+                            class="stripe-button"
+                            data-key="@Stripe.Value.PublishableKey"
+                            data-locale="auto"
+                            data-description="EShop Application Payment"
+                            data-amount="@(Model.TotalPrice * 100)"
+                            data-label="Pay $@Model.TotalPrice">
+                    </script>
+                </article>
+            </form>
+        }
+    </div>
 </div>

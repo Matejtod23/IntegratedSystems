@@ -18,7 +18,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "Stripe.net": "44.3.0"
         },
         "runtime": {
           "BookingApplication.dll": {}
@@ -1980,6 +1981,18 @@
           }
         }
       },
+      "Stripe.net/44.3.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "44.3.0.0",
+            "fileVersion": "44.3.0.0"
+          }
+        }
+      },
       "System.CodeDom/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -2251,7 +2264,8 @@
       },
       "BookingApplication.Domain/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.3"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.3",
+          "Stripe.net": "44.3.0"
         },
         "runtime": {
           "BookingApplication.Domain.dll": {}
@@ -2260,7 +2274,8 @@
       "BookingApplication.Repository/1.0.0": {
         "dependencies": {
           "BookingApplication.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.3"
+          "Microsoft.EntityFrameworkCore": "8.0.3",
+          "Stripe.net": "44.3.0"
         },
         "runtime": {
           "BookingApplication.Repository.dll": {}
@@ -2269,7 +2284,8 @@
       "BookingApplication.Service/1.0.0": {
         "dependencies": {
           "BookingApplication.Domain": "1.0.0",
-          "BookingApplication.Repository": "1.0.0"
+          "BookingApplication.Repository": "1.0.0",
+          "Stripe.net": "44.3.0"
         },
         "runtime": {
           "BookingApplication.Service.dll": {}
@@ -3297,6 +3313,13 @@
       "sha512": "sha512-PQ2Oq3yepLY4P7ll145P3xtx2bX8xF4PzaKPRpw9jZlKvfe4LE/saAV82inND9usn1XRpmxXk7Lal3MTI+6CNg==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.6",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512"
+    },
+    "Stripe.net/44.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M6bKQWKLIJUnDPgiCwDl+AMN8in9jTO4VnofY5sd13rLHSP4da6J5AgwYL4CybUZvu9vyvwKJJnwqCXZ+fobUQ==",
+      "path": "stripe.net/44.3.0",
+      "hashPath": "stripe.net.44.3.0.nupkg.sha512"
     },
     "System.CodeDom/5.0.0": {
       "type": "package",

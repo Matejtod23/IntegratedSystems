@@ -1193,3 +1193,4 @@ D:\.Net_IS\Labs\Lab2B\BookingApplication\BookingApplication\obj\Debug\net8.0\ref
 D:\.Net_IS\Labs\Lab2B\BookingApplication\BookingApplication\obj\Debug\net8.0\BookingApplication.pdb
 D:\.Net_IS\Labs\Lab2B\BookingApplication\BookingApplication\obj\Debug\net8.0\BookingApplication.genruntimeconfig.cache
 D:\.Net_IS\Labs\Lab2B\BookingApplication\BookingApplication\obj\Debug\net8.0\ref\BookingApplication.dll
+D:\.Net_IS\Labs\Lab2B\BookingApplication\BookingApplication\bin\Debug\net8.0\Stripe.net.dll

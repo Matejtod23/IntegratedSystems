@@ -9,16 +9,20 @@ using System.Security.Claims;
 using BookingApplication.Repository;
 using BookingApplication.Domain.Domain;
 using BookingApplication.Service.Interface;
+using Stripe;
+using BookingApplication.Repository.Interface;
 
 namespace BookingApplication.Controllers
 {
     public class BookingListsController : Controller
     {
         private readonly IBookingListService bookingListSerivce;
+        private readonly IUserRepository userRepository;
 
-        public BookingListsController(IBookingListService _bookingListSerivce)
+        public BookingListsController(IBookingListService _bookingListSerivce, IUserRepository _userRepository)
         {
             this.bookingListSerivce = _bookingListSerivce;
+            this.userRepository = _userRepository;  
         }
 
         // GET: BookingLists
@@ -36,6 +40,39 @@ namespace BookingApplication.Controllers
 
             bookingListSerivce.BookNow(userId);
 
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult PayBooking(string stripeEmail, string stripeToken)
+        {
+            var customerService = new CustomerService();
+            var chargeService = new ChargeService();
+
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            StripeConfiguration.ApiKey = "sk_test_51P97sJ06gNlu5LfD30asLgszutxK2EJDuxzwY1kU9oG75gqL4BNMbNsOyammhVurS83dH4cgaUoavx1ndNdawd4800URrGuK8B";
+
+            var bookingList = userRepository.GetById(userId).BookingList;
+
+            var customer = customerService.Create(new CustomerCreateOptions
+            {
+                Email = stripeEmail,
+                Source = stripeToken
+            });
+
+            var charge = chargeService.Create(new ChargeCreateOptions
+            {
+                Amount = (bookingList.BookingReservations.Select(r => r.Number_of_nights * r.Reservation.Apartment.Price_per_night).Sum()) * 100,
+
+                Description = "Booking Payment",
+                Currency = "usd",
+                Customer = customer.Id
+            });
+
+            if(charge.Status == "succeeded")
+            {
+                var result = this.BookNow();
+                return RedirectToAction("Index");
+            }
             return RedirectToAction("Index");
         }
 

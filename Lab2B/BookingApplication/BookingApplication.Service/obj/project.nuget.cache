@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9t0WJbjJfIxQRKz0z5ULXPWc6i5MkQn3gX3K3Z+huIuQRrGXAvrYquhLHF6rxOAWZKt5wg50B3WVp1C6mffeLg==",
+  "dgSpecHash": "nKS1uSjK/LiXoujDXvuXFppdSKEn1DZGfwtJ9wz7BVsWY2Gt5UvofWmFnFb+jg3JbaPT3601dt+f/Kl6WuOs8A==",
   "success": true,
   "projectFilePath": "D:\\.Net_IS\\Labs\\Lab2B\\BookingApplication\\BookingApplication.Service\\BookingApplication.Service.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,16 @@
     "C:\\Users\\matej\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "C:\\Users\\matej\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\matej\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\stripe.net\\44.3.0\\stripe.net.44.3.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\matej\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

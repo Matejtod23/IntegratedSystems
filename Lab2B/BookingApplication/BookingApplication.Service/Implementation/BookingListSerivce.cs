@@ -57,11 +57,11 @@ namespace BookingApplication.Service.Implementation
 
             var allReservations = bookingList?.BookingReservations?.ToList();
 
-            var totalPrice = allReservations.Select(r => r.Number_of_nights * r.Reservation.Apartment.Price_per_night).Sum();
+            var totalPrice = allReservations?.Select(r => r.Number_of_nights * r.Reservation?.Apartment?.Price_per_night).Sum();
 
             ReservationBookingListDTO dto = new ReservationBookingListDTO
             {
-                TotalPrice = totalPrice,
+                TotalPrice = (double)totalPrice,
                 Reservations = allReservations
             };
             return dto;

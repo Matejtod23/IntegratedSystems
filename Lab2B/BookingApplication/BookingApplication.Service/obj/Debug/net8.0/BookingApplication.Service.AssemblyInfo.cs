@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookingApplication.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80a67fef14c9597c2bca67323918fd8f6c61fd5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b71e0551468a7034d8902c82fffa137ac63bc041")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookingApplication.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookingApplication.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
