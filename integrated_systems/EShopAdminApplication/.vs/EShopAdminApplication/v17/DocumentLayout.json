@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|d:\\.net_is\\labs\\integrated_systems\\eshopadminapplication\\eshopadminapplication\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAB15F5F-E1EB-4FD7-9FCE-8BDDEE0EF47A}|EShopAdminApplication\\EShopAdminApplication.csproj|solutionrelative:eshopadminapplication\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Program.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Program.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Program.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:19:48.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:01:00.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "EShopAdminApplication\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:09:34.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "EShopAdminApplication\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:04:06.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:57:56.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Models\\User.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\User.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:56:43.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Models\\Movie.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\Movie.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:55:37.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Models\\Ticket.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\Ticket.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:54:19.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketInOrder.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\TicketInOrder.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Models\\TicketInOrder.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\TicketInOrder.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Models\\TicketInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:53:30.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EShopApplicationUser.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\EShopApplicationUser.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Models\\EShopApplicationUser.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\EShopApplicationUser.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Models\\EShopApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:52:20.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EShopAdminApplication\\Models\\Order.cs",
+              "ToolTip": "D:\\.Net_IS\\Labs\\integrated_systems\\EShopAdminApplication\\EShopAdminApplication\\Models\\Order.cs",
+              "RelativeToolTip": "EShopAdminApplication\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:51:13.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
